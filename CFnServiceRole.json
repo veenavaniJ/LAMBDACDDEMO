@@ -23,10 +23,7 @@
 				"lambda:*"
 			],
 			"Resource": [
-				"arn:aws:lambda:us-east-1:009004775929:function:*",
-				"arn:aws:lambda:us-east-2:009004775929:function:*",
-				"arn:aws:lambda:us-west-1:009004775929:function:*",
-				"arn:aws:lambda:us-west-2:009004775929:function:*",
+				"arn:aws:lambda:us-east-1:009004775929:function:*"
 			],
 			"Effect": "Allow"
 		},
@@ -47,7 +44,7 @@
 				"iam:PutRolePolicy"
 			],
 			"Resource": [
-				"arn:aws:iam::093833860903:role/*"
+				"arn:aws:iam::009004775929:role/*"
 			],
 			"Effect": "Allow"
 		},
@@ -58,7 +55,7 @@
 				"iam:DetachRolePolicy"
 			],
 			"Resource": [
-				"arn:aws:iam::093833860903:role/*"
+				"arn:aws:iam::009004775929:role/*"
 			],
 			"Effect": "Allow"
 		},
